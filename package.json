@@ -1,0 +1,26 @@
+{
+  "name": "W07D04_Express_Middelwares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "notes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasanAlsharif/W07D04_Express_Middelwares.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HasanAlsharif/W07D04_Express_Middelwares/issues"
+  },
+  "homepage": "https://github.com/HasanAlsharif/W07D04_Express_Middelwares#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
