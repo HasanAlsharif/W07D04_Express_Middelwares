@@ -32,12 +32,17 @@ from code copy the repo url
 
     now install the axios 
     make sure you are not running the server
-4--> npm install axios
+4- --> npm install axios
+    --> npm i morgan
+
 
 5- make commit
 
+6- run and test the server
+    npm run dev
+    check with post man
 
-test using    console.log("hi")
+
 
 
 copy paste the following:

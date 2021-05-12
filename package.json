@@ -21,6 +21,7 @@
   "homepage": "https://github.com/HasanAlsharif/W07D04_Express_Middelwares#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }
