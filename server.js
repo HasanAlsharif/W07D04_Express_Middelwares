@@ -20,8 +20,10 @@ app.get('/', (req, res) => {
   res.json('SERVER IS WORKING');
 });
 
+
+
 // ===================PULSE CHECK============================ 
-const users = [];
+const users = ["John", "Mark"];
 
 // 1
 const logUsers = (req, res, next) => {
@@ -120,22 +122,17 @@ app.use((err, req, res, next) => {
 
 
 
-
-
-
-
-
-
-
 // ====================PRACTICE============================== 
 
+// Q1
+const authRouter = express.Router();
 
+authRouter.use("/users", (req, res, next) => {
+  res.json(users);
+  next();
+});
 
-
-
-
-
-
+app.use("/auth", authRouter);
 
 
 
